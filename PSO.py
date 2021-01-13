@@ -2,6 +2,7 @@ from random import random, randrange
 from math import sqrt, floor
 import matplotlib.pyplot as pyot
 
+# Global variables
 COUNTER_MAX = 50  # maximum number of iterations without improvement before the program terminates
 VERSION = "inertial"  # determines velocity version used, choice of simple, inertial, constrict and guaranteed
 SYNC = False  # synchronous or asynchronous update, currently not in use as program only has async mode
